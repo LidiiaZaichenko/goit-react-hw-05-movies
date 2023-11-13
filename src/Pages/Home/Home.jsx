@@ -28,8 +28,8 @@ const Home = () => {
             </MovieLink>
           </li>
         ))}
-        {isLoading && <Loader />}
       </MovieList>
+      {isLoading && <Loader />}
     </main>
   );
 };

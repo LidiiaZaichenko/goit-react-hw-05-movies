@@ -54,8 +54,8 @@ const Movies = () => {
             </li>
           );
         })}
-        {isLoading && <Loader />}
       </MovieList>
+      {isLoading && <Loader />}
     </main>
   );
 };
